@@ -8,6 +8,6 @@ void main() {
     await tester.pumpWidget(const MainApp());
 
     // Verify that our widget shows "Hello World!".
-    expect(find.text('Hello World!'), findsOneWidget);
+    expect(find.text('Hello World2! hi'), findsOneWidget);
   });
 }
